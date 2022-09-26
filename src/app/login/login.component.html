@@ -1,0 +1,37 @@
+<div class="topnav">
+    <a class="active" href="">KonbanBoard</a>
+    <a class="nav-link" [routerLink]="['/home']">Home</a>
+    <a class="nav-link" [routerLink]="['/login']">LogIn</a>
+    <a class="nav-link" [routerLink]="['/about']">About Us</a>
+    <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+    <a class="nav-link" [routerLink]="['/add-project']">Add Project</a>
+    <a class="nav-link" [routerLink]="['/project']">Add Task</a>
+    <a class="nav-link" [routerLink]="['/role']">Add Role</a>
+    <a class="nav-link" [routerLink]="['/project-list']">Project List</a>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-container">
+                    <h1>Login</h1>
+                    <h6>Please enter email&password </h6>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div><br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div><br>
+
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form><br>
+                <a style="color:#fff;margin-top:10px;" routerLink="/signup">New user? Cilck to Signup !!</a>
+            </div>
+        </div>
+    </div>
+</div>
