@@ -1,0 +1,6 @@
+projectKey=com.kanbanboard:Kanbanboardbyminee
+serverUrl=http://localhost:9000
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/dashboard?id=com.kanbanboard%3AKanbanboardbyminee
+ceTaskId=AYN4U0yRb02CaEZHdRN_
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYN4U0yRb02CaEZHdRN_
